@@ -1,7 +1,7 @@
 import React from 'react';
 import estilos from './Principal.module.css';
 import { ReactComponent as Ilustracao } from './ilustracao.svg';
-import Saldo from './Saldo';
+import Saldo from './Saldo/index.jsx';
 
 const data = Date.now();
 const hoje = new Date(data);
